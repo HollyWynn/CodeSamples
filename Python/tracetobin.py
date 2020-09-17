@@ -1,6 +1,6 @@
-## Parser to build bin file from trace to find data anomalies
+## Parser to build bin file from recorded trace to find data anomalies
 
-file = open("tracefile_MIB10V2_update_MODIFIED2.txt", 'r')
+file = open("tracefile.txt", 'r')
 out_file = open("firmware_compare.bin", 'wb')
 last_line = ''
 same_line_count = 0

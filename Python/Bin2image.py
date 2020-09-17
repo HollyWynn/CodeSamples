@@ -28,7 +28,7 @@ for i in range(0, 524289):
 flash_ptr = 0
 data_size = 0
 
-in_file = open("49153000_MOG_v0.11r126B.bin", "rb")
+in_file = open("Firmware.bin", "rb")
 
 block_zero = (24, 0)
 in_file.read(24) # Block 0 is fixed, ignore it and don't put it in the flash image
